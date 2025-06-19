@@ -6,3 +6,5 @@ def print_fibonacci(length):
         print([])
     elif length > 0:
         print(fibonacci_list[0:length])
+    else:
+        print("Error: cannot take negative value as argument")
